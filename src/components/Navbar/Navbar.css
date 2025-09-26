@@ -1,0 +1,52 @@
+.logo{
+    width: 40px;
+}
+ul li{
+   padding: 6px 18px ;
+   display: inline-block;  
+   border-radius: 8px;
+}
+
+ul li:hover{
+    background-color: rgba(255, 255, 255, 0.1); 
+    backdrop-filter: blur(6px);  
+    -webkit-backdrop-filter: blur(6px); 
+}
+.contact{
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.contact:hover{
+    transform: scale(1.05);
+}
+
+@media(max-width: 1024px){
+   .nav-links{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 65px;
+        right: 3px;
+        align-items: flex-start;
+        background-color: rgba(255, 255, 255, 0.2);
+        -webkit-backdrop-filter: blur(5px);
+        backdrop-filter: blur(5px);
+        color: #fff;
+        font-size: 16px;
+        padding: 1.5rem 1rem;
+        width: 150px;
+        gap: 0.2rem;
+        border-radius: 8px;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        opacity: 0;
+        transform: translateY(-20px);
+        pointer-events: none; 
+        transition: all 0.3s ease-in-out;
+    }
+
+    .nav-links.open{
+        opacity: 1;
+        transform: translateY(0);
+        pointer-events: auto;
+    }
+}
