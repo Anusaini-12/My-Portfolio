@@ -46,12 +46,14 @@ const Home = () => {
     </motion.p>
     
     <div className="btns">
-    <motion.button
+    <a href="#projects"> 
+     <motion.button
       whileHover={{ scale: 1.1 }}
       whileTap={{ scale: 0.85 }}
       className="mt-8 px-4 py-3 md:px-16 md:py-5 rounded-full bg-white text-black text-xs md:text-lg font-bold shadow-lg mr-10">
       My Projects
-    </motion.button>
+     </motion.button>
+    </a>
 
     <motion.button
       whileHover={{ scale: 1.1 }}
