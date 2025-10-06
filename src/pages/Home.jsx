@@ -55,10 +55,10 @@ const Home = () => {
      </motion.button>
     </a>
 
-    <a href="./anuradha_frontend_resume" download>
+    <a href="./anuradha_frontend_resume.png" download>
      <motion.button
-      whileHover={{ scale: 1.1 }}
-      whileTap={{ scale: 0.95 }}
+      whileHover={{ scale: 1.02 }}
+      whileTap={{ scale: 0.75 }}
       className="mt-8 px-6 py-3 md:px-16 md:py-5 rounded-full bg-transparent border text-xs md:text-lg text-white font-bold shadow-lg">
       Resume
      </motion.button>
