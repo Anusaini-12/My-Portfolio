@@ -48,16 +48,16 @@ const Home = () => {
     <div className="btns">
     <a href="#projects"> 
      <motion.button
-      whileHover={{ scale: 1.1 }}
-      whileTap={{ scale: 0.85 }}
+      whileHover={{ scale: 1.08 }}
+      whileTap={{ scale: 0.75 }}
       className="mt-8 px-4 py-3 md:px-16 md:py-5 rounded-full bg-white text-black text-xs md:text-lg font-bold shadow-lg mr-10">
       My Projects
      </motion.button>
     </a>
 
-    <a href="./anuradha_frontend_resume.png" download>
+    <a href="/anuradha_frontend_resume.pdf" target="_blank">
      <motion.button
-      whileHover={{ scale: 1.02 }}
+      whileHover={{ scale: 1.08 }}
       whileTap={{ scale: 0.75 }}
       className="mt-8 px-6 py-3 md:px-16 md:py-5 rounded-full bg-transparent border text-xs md:text-lg text-white font-bold shadow-lg">
       Resume
