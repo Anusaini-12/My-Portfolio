@@ -39,7 +39,7 @@ const Projects = () => {
         <motion.div key={idx}
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 1.5, delay: 5, repeat: Infinity}}
+        transition={{ duration: 1.5, repeatDelay: 2, repeat: Infinity}}
         className="card mb-16 shadow-2xl rounded-lg p-3 bg-white/16 backdrop-blur-8xl ">
 
           <img src={project.img} alt="portfolio"/>
